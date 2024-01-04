@@ -49,8 +49,8 @@ app.http("callback", {
       }
       const TwitterApi = require("twitter-api-v2").default;
       const twitterClient = new TwitterApi({
-        clientId: "VlR2M3hVVkxaUjhZbEtNcTVuZDE6MTpjaQ",
-        clientSecret: "kKJzmVgjf68xgdQANtxxgOEwd4ybu1W4aLE7WRE3iymjAr-2XL",
+        clientId: "tweeter-client-id",
+        clientSecret: "tweeter-secret",
       });
       const callbackURL = "https://tweeterbot.azurewebsites.net/api/callback";
       const {

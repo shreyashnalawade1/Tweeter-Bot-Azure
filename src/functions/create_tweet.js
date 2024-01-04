@@ -37,8 +37,8 @@ app.http("create_tweet", {
       const { refreshToken } = dbSnapshot.data();
       const TwitterApi = require("twitter-api-v2").default;
       const twitterClient = new TwitterApi({
-        clientId: "VlR2M3hVVkxaUjhZbEtNcTVuZDE6MTpjaQ",
-        clientSecret: "kKJzmVgjf68xgdQANtxxgOEwd4ybu1W4aLE7WRE3iymjAr-2XL",
+        clientId: "tweeter-client-id",
+        clientSecret: "tweeter-client-screet",
       });
       const {
         client: refreshedClient,
